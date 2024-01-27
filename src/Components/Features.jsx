@@ -13,13 +13,13 @@ function Features() {
     {icon: com, name: 'COMMUNITY', info: 'Join our active community that will be growing rapidly by day as more partnerships get aligned with $EdFi'},
   ]
   return (
-    <div className='features flex items-center justify-center flex-col py-10'>
+    <div className='features flex items-center pt-20 justify-center flex-col py-10'>
       <div className="flex items-center justify-center flex-col gap-10 pb-10 z-10">
         <img src={logo} alt="" />
-        <p className='text-[18px] inter font-semibold text-white mt-5 mb-10'>The ultimate all in one Web3 Education platform you been waiting for!</p>
+        <p className='text-[18px] inter font-bold text-center text-[#ABABAB] mt-5 mb-10'>The ultimate all in one Web3 Education platform you been waiting for!</p>
       </div>
 
-      <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-y-[80px] gap-x-[300px]">
+      <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-y-[80px] gap-y-10 lg:gap-x-[300px]">
         {featuresList.map((item, index) => (
           <div className="text-white flex flex-col justify-center items-center text-center z-10" key={index}>
             <img src={item.icon} className='my-4' alt="" />
@@ -32,7 +32,7 @@ function Features() {
             </h4>
 
 
-            <p className='inter w-[250px]'>{item.info}</p>
+            <p className='inter w-[250px] lg:text-[#cfcfcf] text-[#727272]'>{item.info}</p>
           </div>
         ))}
       </div>

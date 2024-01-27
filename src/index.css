@@ -15,8 +15,8 @@ html {
 .hero {
     position: relative;
     background-image: url(./assets/hero-bg.png);
-    background-position: top;
-    background-size: contain;
+    background-position: center;
+    background-size: 1000px;
   }
   
   .hero::before {
@@ -36,7 +36,7 @@ html {
     position: relative;
     background-image: url(./assets/features.png);
     background-position: top;
-    background-size: contain;
+    background-size: cover;
   }
 
   .features::before {
@@ -46,7 +46,7 @@ html {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0, 3, 1, 0.664); /* Adjust the '0.5' to control the darkness */
+    background: rgba(0, 3, 1, 0.795); /* Adjust the '0.5' to control the darkness */
   }
 
   .cards {
