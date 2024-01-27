@@ -27,7 +27,7 @@ function Notes() {
         engaging games, it creates a fun and immersive environment for expanding your 
         knowledge. Coming Soon
         </p>
-        <button className='bg-[#007458] hover:bg-[#07503f] mt-[3rem] transition-all border-[1px] border-[#07D1A1] font-semibold text-white px-[3rem] py-3 text-lg rounded-2xl inter'>CRYPT SUMMARIZER</button>
+        <button className='bg-[#007458] hover:bg-[#07503f] mt-[3rem] transition-all border-[1px] border-[#07D1A1] font-semibold text-white px-[3rem] py-3 lg:text-lg rounded-2xl text-sm inter'>CRYPT SUMMARIZER</button>
       </div>
     </div>
   )
