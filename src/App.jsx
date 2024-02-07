@@ -7,12 +7,14 @@ import Making from './Components/Making'
 import Notes from './Components/Notes'
 import Tokenomics from './Components/Tokenomics'
 import Buy from './Components/Buy'
+import Brands from './Components/Brands'
 
 function App() {
 
   return (
     <>
       <Hero/>
+      <Brands/>
       <Intro/>
       <Features/>
       <Making/>

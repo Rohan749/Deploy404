@@ -40,7 +40,7 @@ function Tokenomics() {
             <p className='text-xl text-white font-bold'>Liquidity</p>
             <div className="bar relative lg:w-[600px] h-[20px] flex items-center my-3">
               <span className="dot absolute bg-[#3FFFE2] w-[70%] h-[100%]"></span> 
-              <p className='text-lg text-white absolute lg:right-[7.3rem] right-10 font-bold'>70%</p>
+              <p className='text-lg text-white absolute lg:right-[7.3rem] right-[2.6rem] font-bold'>70%</p>
             </div>
             <p className='text-[#ABABAB] lg:w-[400px] '>To maximize the liquidity of $EdFi and ensure a healthy market.</p>
           </div>

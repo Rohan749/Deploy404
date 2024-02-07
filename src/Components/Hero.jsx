@@ -18,13 +18,13 @@ function Hero() {
   return (
     <div className="hero">
       <Navbar />
-      <div className="flex items-center flex-col justify-center gap-20 h-[100vh] relative">
+      <div className="flex items-center flex-col justify-center gap-20 h-[90vh] relative">
         <img src={blurLeft} className="absolute left-0 w-[700px] h-[100%] top-0" alt="" />
         <img src={blurRight} className="absolute right-0 w-[700px] h-[100%] top-0" alt="" />
         <div className="logo">
           <img src={logo} alt="" />
         </div>
-        <div className="hero-header text-center flex flex-col justify-center items-center">
+        <div className="hero-header text-center flex flex-col justify-center items-center ml-10">
           <Link to="maintext" smooth duration={500}>
             Scroll down
           </Link>
@@ -42,9 +42,7 @@ function Hero() {
             AN EDUCATIONAL HUB <br />
             FOR CRYPTO INVESTORS
           </animated.h2>
-          <p className="text-[#09B161] inter lg:text-[24px] text-[18px] lg:w-full w-[300px] font-semibold my-5 text-center">
-            Providing you the tools you need for Web3 Education.
-          </p>
+          
         </div>
       </div>
     </div>
