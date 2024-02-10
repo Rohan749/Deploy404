@@ -42,7 +42,7 @@ function Buy() {
 
         </div>
         <button className='bg-[#007458] hover:bg-[#07503f] mt-[3rem] transition-all border-[1px] border-[#07D1A1] font-semibold text-white px-[3rem] py-3 text-lg rounded-2xl inter'>
-          BUY $EDUCRYPT
+          BUY $DEPLOY404
         </button>
       </div>
       <Footer/>

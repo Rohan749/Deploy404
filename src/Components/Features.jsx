@@ -7,16 +7,17 @@ import com from '../assets/Features Assets/com.png'
 
 function Features() {
   const featuresList = [
-    {icon: stake, name: 'STAKING', info: 'Stay tuned for announcements on how to participate in our Staking Program.'},
-    {icon: test, name: 'TEST YOUR KNOWLEDGE', info: 'Stay tuned for how $EdFi will allow you to test your Knowledge in Crypto.'},
-    {icon: learn, name: 'LEARN', info: 'We aim to be an educational hub for the crypto space. Access educational content on $EdFi soon.'},
-    {icon: com, name: 'COMMUNITY', info: 'Join our active community that will be growing rapidly by day as more partnerships get aligned with $EdFi'},
+    {icon: stake, name: 'DEPLOYER DAPP', info: 'Effortlessly launch ERC404 tokens using our dapp or Telegram bot. Just enter token details and deploy effortlessly.'},
+    {icon: test, name: 'LAUNCHPAD FOR ERC404', info: 'Provides comprehensive token launch services, covering public minting, presale, and liquidity management—a unified solution for ERC404 token issuance.'},
+    {icon: learn, name: 'ERC404 MARKETPLACE', info: 'Trade ERC404 tokens and NFTs in a user-friendly marketplace, improving liquidity and accessibility.'},
+    {icon: com, name: 'ERC404 EXTENSIONS', info: 'Personalize your ERC404 tokens with advanced features such as transaction tax, transaction limits, and rarity types. z'},
   ]
   return (
     <div className='features flex items-center pt-20 justify-center flex-col py-10'>
       <div className="flex items-center justify-center flex-col gap-10 pb-10 z-10">
-        <img src={logo} alt="" />
-        <p className='text-[18px] inter font-bold text-center text-[#ABABAB] mt-5 mb-10'>The ultimate all in one Web3 Education platform you been waiting for!</p>
+        {/* <img src={logo} alt="" /> */}
+        <div className='inter font-bold text-center text-[#ABABAB] text-[30px]'>DEPLOY404</div>
+        <p className='text-[18px] inter font-bold text-center text-[#ABABAB] mb-10'>End to end solution for ERC404 ecosystem</p>
       </div>
 
       <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-y-[80px] gap-y-10 lg:gap-x-[300px]">
@@ -32,7 +33,7 @@ function Features() {
             </h4>
 
 
-            <p className='inter w-[250px] lg:text-[#cfcfcf] text-[#727272]'>{item.info}</p>
+            <p className='inter w-[250px] lg:text-[#cfcfcf] text-[#727272] text-justify'>{item.info}</p>
           </div>
         ))}
       </div>

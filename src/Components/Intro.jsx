@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
-import { motion, useAnimation } from 'framer-motion';
-import edu from '../assets/education.png';
-import blur from '../assets/introBg.png';
+import React, { useEffect } from "react";
+import { motion, useAnimation } from "framer-motion";
+import edu from "../assets/education.png";
+import blur from "../assets/introBg.png";
 
 function Intro() {
   const controls = useAnimation();
@@ -15,27 +15,27 @@ function Intro() {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, [controls]);
 
   return (
-    <div className='flex justify-center items-center gap-10 relative flex-wrap lg:p-[60px] p-[40px] bg-[#000302] pb-10'>
+    <div className="flex justify-center items-center gap-10 relative flex-wrap lg:p-[60px] p-[40px] bg-[#000302] pb-10">
       <motion.img
         src={blur}
-        className='absolute right-0'
+        className="absolute right-0"
         alt=""
         initial={{ opacity: 0, x: -100 }}
-        transition={{ ease: 'easeIn', duration: 0.5 }}
+        transition={{ ease: "easeIn", duration: 0.5 }}
         animate={controls}
       />
       <motion.div
         className=" img w-[500px]"
         initial={{ opacity: 0, x: 50 }}
-        transition={{ ease: 'easeIn', duration: 0.5 }}
+        transition={{ ease: "easeIn", duration: 0.5 }}
         animate={controls}
       >
         <img src={edu} alt="" />
@@ -43,18 +43,25 @@ function Intro() {
       <motion.div
         className=" text text-center"
         initial={{ opacity: 0, x: 0 }}
-        transition={{ ease: 'easeIn', duration: 0.5 }}
+        transition={{ ease: "easeIn", duration: 0.5 }}
         animate={controls}
       >
-        <h3 className='text-[23px] font-bold inter text-white mb-5' style={{
-          backgroundImage: 'linear-gradient(to right, #373737, #ffff)',
-          WebkitBackgroundClip: 'text',
-          color: 'transparent',
-        }}>
-          EDU CRYPT STANDS FOR <br /> CRYPTO EDUCATION
+        <h3
+          className="text-[23px] font-bold inter text-white mb-5"
+          style={{
+            backgroundImage: "linear-gradient(to right, #373737, #ffff)",
+            WebkitBackgroundClip: "text",
+            color: "transparent",
+          }}
+        >
+          $Deploy404 Token
         </h3>
-        <p className='inter text-white lg:w-[600px]'>
-          EdFi aims to become an educational ecosystem for all things crypto based. EdFi aims to provide the necessary tools for Web3 Education and become a leader in this category.
+        <p className="inter text-white lg:w-[600px] text-justify">
+          The $Deploy404 token is vital to the 0x404 ecosystem, providing holders
+          with a share of platform revenue derived from deployment fees,
+          feature charges, and ad revenues. Token holders receive regular,
+          proportional distributions, aligning their investment with platform
+          success and building a dedicated community.
         </p>
       </motion.div>
     </div>

@@ -6,7 +6,7 @@ import logo from '../assets/logo.png';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const navItems = ['Home', 'Educrypt.AIortfolio', 'Summarizer', 'Stake', 'Academy'];
+  const navItems = ['Home', 'Partners', 'Features', 'Working', 'Buy'];
 
   return (
     <motion.div
@@ -15,7 +15,8 @@ const Navbar = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <img src={logo} alt="Logo" className="lg:w-[170px] w-[120px]" />
+      {/* <img src={logo} alt="Logo" className="lg:w-[170px] w-[120px]" /> */}
+      <span className='inter text-white  transition-all cursor-pointer hover:text-[#0AF986] hover:bg-[#132f22] text-base text-[30px] font-semibold p-3 px-4 rounded-2xl'>Deploy404</span>
 
       {/* Navbar items */}
       <ul className={`md:flex ${isMobileMenuOpen ? 'block' : 'hidden'} space-x-4`}>

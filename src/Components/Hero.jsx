@@ -21,8 +21,9 @@ function Hero() {
       <div className="flex items-center flex-col justify-center gap-20 h-[90vh] relative">
         <img src={blurLeft} className="absolute left-0 w-[700px] h-[100%] top-0" alt="" />
         <img src={blurRight} className="absolute right-0 w-[700px] h-[100%] top-0" alt="" />
-        <div className="logo">
-          <img src={logo} alt="" />
+        <div className="logo text-white text-[30px] font-extrabold">
+          {/* <img src={logo} alt="" /> */}
+          DEPLOY404
         </div>
         <div className="hero-header text-center flex flex-col justify-center items-center ml-10">
           <Link to="maintext" smooth duration={500}>
@@ -39,8 +40,8 @@ function Hero() {
               ...maintextProps,
             }}
           >
-            AN EDUCATIONAL HUB <br />
-            FOR CRYPTO INVESTORS
+            End to end solution <br />
+            for ERC404 ecosystem
           </animated.h2>
           
         </div>

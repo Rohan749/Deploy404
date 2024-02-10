@@ -18,8 +18,8 @@ function App() {
       <Intro/>
       <Features/>
       <Making/>
-      <Notes/>
-      <Tokenomics/>
+      {/* <Notes/> */}
+      {/* <Tokenomics/> */}
       <Buy/>
     </>
   )

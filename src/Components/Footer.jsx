@@ -18,7 +18,7 @@ function Footer() {
             <div className="socials flex justify-start lg:gap-20 gap-3 my-5 cursor-pointer">
                 <img src={github} className='lg:w-[50px] w-[25px]' alt="" />
                 <img src={discord} className='lg:w-[50px] w-[25px]' alt="" />
-                <img src={x} className='lg:w-[50px] w-[25px]' alt="" />
+                <img src={x} className='lg:w-[47px] w-[23px]' alt="" />
             </div>
         </div>
         <div className='mb-[65px]'>
@@ -27,7 +27,7 @@ function Footer() {
                 WebkitBackgroundClip: 'text',
                 color: 'transparent'
             }}>
-                Copyright © 2023 EduCrypt. All Rights Reserved.
+                Copyright © 2023 Deploy404. All Rights Reserved.
             </h3>
         </div>
     </div>
