@@ -18,17 +18,17 @@ function Hero() {
   return (
     <div className="hero">
       <Navbar />
-      <div className="flex items-center flex-col justify-center gap-20 h-[90vh] relative">
-        <img src={blurLeft} className="absolute left-0 w-[700px] h-[100%] top-0" alt="" />
-        <img src={blurRight} className="absolute right-0 w-[700px] h-[100%] top-0" alt="" />
-        <div className="logo text-white text-[30px] font-extrabold">
+      <div className="flex items-center flex-col justify-center gap-10 h-[90vh] relative">
+        {/* <img src={blurLeft} className="absolute left-0 w-[700px] h-[100%] top-0" alt="" />
+        <img src={blurRight} className="absolute right-0 w-[700px] h-[100%] top-0" alt="" /> */}
+        <div className="logo text-[64px] font-extrabold text-green-500 bg-gradient-to-r ">
           {/* <img src={logo} alt="" /> */}
           DEPLOY404
         </div>
         <div className="hero-header text-center flex flex-col justify-center items-center ml-10">
-          <Link to="maintext" smooth duration={500}>
+          {/* <Link to="maintext" smooth duration={500}>
             Scroll down
-          </Link>
+          </Link> */}
           <animated.h2
             ref={maintextRef}
             id="maintext"
@@ -41,7 +41,7 @@ function Hero() {
             }}
           >
             End to end solution <br />
-            for ERC404 ecosystem
+            for ERC404 tokens.
           </animated.h2>
           
         </div>

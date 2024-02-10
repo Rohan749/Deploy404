@@ -36,7 +36,7 @@ const Navbar = () => {
       </button>
 
       {/* CTA Button */}
-      <button className="bg-[#007458] hover:bg-[#07503f] transition-all border-[1px] border-[#07D1A1] font-semibold text-white lg:px-[3rem] px-4 lg:py-4 py-2 lg:last:text-[20px] rounded-2xl inter">Connect Wallet</button>
+      <button className="bg-[#007458] hover:bg-[#07503f] transition-all border-[1px] border-[#07D1A1] font-semibold text-white lg:px-[3rem] px-4  py-2 lg:last:text-[20px] rounded-2xl inter">Connect Wallet</button>
     </motion.div>
   );
 };
